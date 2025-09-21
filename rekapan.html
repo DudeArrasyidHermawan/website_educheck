@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educheck - Menu</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      background-color: #fff;
+      padding: 20px;
+    }
+
+    .logo-user {
+      font-size: 40px;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    h2 {
+      margin: 5px 0 15px;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      margin-bottom: 20px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      color: #000;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background-color: #333;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+   <div class="logo-user"><i class="fa fa-user-circle"></i></div>
+  <h2>Educheck</h2>
+ 
+  <img src="img/educheck_logo_white_bg (1).png" alt="Logo Educheck" class="logo">
+
+  
+  <div class="card">
+    <h3>Kirim Rekap Ke Guru BP/BK</h3>
+    <form action="kirim.html" method="posting">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+ 
+  <div class="card">
+    <h3>Lihat Rekap Pelanggaran</h3>
+    <form action="hasil.html" method="posting">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
